@@ -1,0 +1,102 @@
+<home-projects>
+	<section class="landing-project hidden-md hidden-sm hidden-xs">
+		<div class="container">
+			<section class="single-item slider" style="padding-bottom:0px;">
+				<div each= { indexProject } class="slick-image" style="display:flex;">
+					<div class="col-sm-7">
+						<a href="{ imageURL }"><img src="{ image }" alt="{ imageAlt }"></a>
+				    </div>
+				    <div class="col-sm-5 project-container">
+				        <p class="card-project-text" style="font-size:16px;"><strong>{ projectTitle}</strong></p>
+				        <p class="card-project-text">{ projectDescription }</p>
+                        <br>
+				        <p class="card-project-text"><strong>Backer Reward:</strong> { reward }</p>
+				        <div class="no-gutter funding-box">
+				            <div class="col-sm-6">
+								<p class="card-project-text">Goal: ${ goal }</p>
+				            </div>
+				            <div class="col-sm-6 text-right">
+								<p class="card-project-text">{ category }</p>
+				            </div>
+				            <div class="col-sm-12">
+								<div class="progress">
+								    <div class="progress-bar" role="progressbar" style="width: { progressBar }%" aria-valuenow="{ progressBar }" aria-valuemin="0" aria-valuemax="100">
+                                    </div>
+								</div>
+				            </div>
+				            <div class="col-sm-2">
+								<p class="card-project-text margin-text">{ progressBar }%</p>
+								<p class="card-project-text">Funded</p>
+				            </div>
+				            <div class="col-sm-3 text-center">
+								<p class="card-project-text margin-text">${ pledged }</p>
+								<p class="card-project-text">Pledged</p>
+				            </div>
+				            <div class="col-sm-3 text-center">
+								<p class="card-project-text margin-text">{ backers }</p>
+								<p class="card-project-text">Backers</p>
+				            </div>
+				            <div class="col-sm-4 text-right">
+								<p class="card-project-text margin-text">{ days }</p>
+								<p class="card-project-text">Days Left</p>
+				            </div>
+				        </div>
+				    </div>
+                <div>
+            </section>
+        </div>
+    </section>
+    <script type="text/javascript">
+        this.indexProject = [
+        { image:"/img//projects/bahari-bag.jpg", 
+        imageURL:"/?live=1", 
+        imageAlt:"Bahari Beach bag on the beach",
+        projectTitle:"Lala Bahari: The First Convertible Tote Bag of its Kind",
+        projectDescription:"Made in Africa to support the local communities. Our bag converts from a towel or wrap into a tote through an innovative rope mechanism",
+        reward:"All pledges over $50 will receive a Bahari Sarong and Scarf.",
+        goal:"40,000",
+        category:"Design",
+        progressBar:'26',
+        pledged:'10,544',
+        backers:'50',
+        days:'19'},
+        
+        { image:"/img/projects/computer.jpg", 
+        imageURL:"/?live=1",
+        imageAlt:"Computer and accessories sitting on a desk",
+        projectTitle:"Creating A Modular Computer App for All of Your Organizing Needs",
+        projectDescription:"We bring a way to organize your day and connect all of your devices through one app.",
+        reward:"All Krowdspace members will receive a free year subscription to our organizing app.",
+        goal:"100,000",
+        category:"Tech",
+        progressBar:'46',
+        pledged:'45,798',
+        backers:'132',
+        days:'14'},
+        
+        { image:"/img/projects/pizza.jpg", 
+        imageURL:"/?live=1" ,
+        imageAlt:"Pizza slice sitting on a table with condiments",
+        projectTitle:"The Only Restaurant to use Recipes From our Guests",
+        projectDescription:"Dining guests can submit their own recipes and our community will vote and if selected will be featured at our restaurant.",
+        reward:"All Krowdspace members will receive our Cookbook.",
+        goal:"50,000",
+        category:"Food",
+        progressBar:'83',
+        pledged:'41,765',
+        backers:'78',
+        days:'2'},
+        ]
+    </script>
+    <script type="text/javascript">
+        this.on('mount', function() {
+          $('.single-item').slick({
+            dots: false,
+            arrows:false,
+            infinite: true,
+        autoplay: true,
+        autoplaySpeed: 8000,
+          });
+        });
+    </script>
+</home-projects>
