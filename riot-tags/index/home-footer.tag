@@ -95,19 +95,15 @@
           EMAIL: $("#EMAIL1").val(),
           COMMENT: $("#COMMENT1").val()
         };
-        console.log(JSON.stringify(formArr));
         $.ajax({
            contentType:"application/json",
            url: 'http://api.krowdspace.com/contact_us',
            type: 'POST',
            data: JSON.stringify(formArr),
            success: function(data) {
-                   if(data.success = true){ 
-                        window.location.replace("/?success=1");               
-                   }else{
-                        alert("error");
-                   }
-           }
+                    if(!data.success)
+                    window.location.replace("/?success=1");
+             }
         });
         }  
     </script>
