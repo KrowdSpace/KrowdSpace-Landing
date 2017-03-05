@@ -305,6 +305,7 @@ section.landing-project {
 }
 section.client {
   padding: 0px;
+    
 }
 section h2.section-heading {
   font-size: 40px;
@@ -1357,3 +1358,7 @@ section h3.section-subheading-project {
 .boost-middle-btn {
         padding-top:112px;
     }
+.calculator {
+    position: relative;
+    left: calc( 50% - 250px );
+}
