@@ -1,4 +1,5 @@
 <home-boosts>
+
 <img src="img/content/page-break.jpg" class="img-responsive calculator">
 	<section id="boost">
 		<div class="container">
