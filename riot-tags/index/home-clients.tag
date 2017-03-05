@@ -1,5 +1,5 @@
 <home-clients>
-<img src="img/content/page-break.jpg" class="img-responsive hidden-sm hidden-xs">
+<img src="img/content/page-break.jpg" class="img-responsive hidden-sm hidden-xs text-center">
 	<aside class="clients hidden-sm hidden-xs">
 		<div class="text-center">
 			<section class="client center slider">
