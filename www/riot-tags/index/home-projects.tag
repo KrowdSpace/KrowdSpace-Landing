@@ -1,7 +1,7 @@
 <home-projects>
 	<section class="landing-project hidden-md hidden-sm hidden-xs">
 		<div class="container">
-			<section class="single-item slider" style="padding-bottom:0px;">
+			<section class="single-item slider" >
 				<div each= { indexProject } class="slick-image" style="display:flex;">
 					<div class="col-sm-7">
 						<a href="{ imageURL }"><img src="{ image }" alt="{ imageAlt }"></a>
@@ -48,8 +48,8 @@
     </section>
     <script type="text/javascript">
         this.indexProject = [
-        { image:"/img//projects/bahari-bag.jpg", 
-        imageURL:"/?live=1", 
+        { image:"/img//projects/bahari-bag.jpg",
+        imageURL:"/?live=1",
         imageAlt:"Bahari Beach bag on the beach",
         projectTitle:"Lala Bahari: The First Convertible Tote Bag of its Kind",
         projectDescription:"Made in Africa to support the local communities. Our bag converts from a towel or wrap into a tote through an innovative rope mechanism",
@@ -60,8 +60,8 @@
         pledged:'10,544',
         backers:'50',
         days:'19'},
-        
-        { image:"/img/projects/computer.jpg", 
+
+        { image:"/img/projects/computer.jpg",
         imageURL:"/?live=1",
         imageAlt:"Computer and accessories sitting on a desk",
         projectTitle:"Creating A Modular Computer App for All of Your Organizing Needs",
@@ -73,8 +73,8 @@
         pledged:'45,798',
         backers:'132',
         days:'14'},
-        
-        { image:"/img/projects/pizza.jpg", 
+
+        { image:"/img/projects/pizza.jpg",
         imageURL:"/?live=1" ,
         imageAlt:"Pizza slice sitting on a table with condiments",
         projectTitle:"The Only Restaurant to use Recipes From our Guests",

@@ -7,7 +7,7 @@
       				<a href="{ imageURL }" target="_blank"><img src="{ image }" alt="{ imageAlt }"></a>
     			</div>
  			</section>
-		</div> 
+		</div>
 	</aside>
 <script type="text/javascript">
         this.indexClients = [
