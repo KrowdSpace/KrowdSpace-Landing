@@ -102,7 +102,7 @@
                 window.location.replace("/?success=1");
             },
             error: function(XMLHttpRequest, textStatus, errorThrown) {
-               console.log(XMLHttpRequest + "textStatus"+textStatus + "errorThrown+ "errorThrown)
+               console.log(XMLHttpRequest.responseText);
                }
           });
           }
