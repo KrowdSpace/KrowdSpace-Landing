@@ -1,9 +1,9 @@
 <home-clients>
-<img src="img/content/page-break.jpg" class="img-responsive hidden-sm hidden-xs text-center">
+<img src="img/content/page-break.jpg" class="hidden-sm hidden-xs calculator">
 	<aside class="clients hidden-sm hidden-xs">
-		<div class="text-center">
+		<div class="container text-center">
 			<section class="client center slider">
-   				<div each= { indexClients } class="slick-image">
+   				<div each= { indexClients }>
       				<a href="{ imageURL }" target="_blank"><img src="{ image }" alt="{ imageAlt }"></a>
     			</div>
  			</section>
