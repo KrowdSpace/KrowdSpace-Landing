@@ -18,7 +18,7 @@
                                 <div>
                                     <input type="text" class="form-control" placeholder="Username or Email Address" id="CustomerEmail" autocorrect="off" autocapitalize="off">
                                 </div>
-                                <div class="col-xs-8 form-group">  
+                                <div class="col-xs-8 form-group">
                                     <input type="password" class="form-control" placeholder="Password" value="" id="CustomerPassword">
                                 </div>
                                 <div class="col-xs-4 form-group" style="padding-left:10px;">
@@ -100,14 +100,11 @@
              success: function(data) {
                 if(!data.success)
                 window.location.replace("/?success=1");
-            }
+            },
+            error: function(XMLHttpRequest, textStatus, errorThrown) {
+               console.log(XMLHttpRequest.responseText);
+               }
           });
-          }  
+          }
     </script>
 </modal-login>
-
-
-
-
-
-

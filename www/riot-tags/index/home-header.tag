@@ -72,8 +72,11 @@
            success: function(data) {
                 if(!data.success)
                 window.location.replace("/?success=1");
-           }
+           },
+           error: function(XMLHttpRequest, textStatus, errorThrown) {
+                console.log(XMLHttpRequest.responseText);
+              }
         });
-        }  
+        }
     </script>
 </home-header>
