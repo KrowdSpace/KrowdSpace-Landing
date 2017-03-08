@@ -232,11 +232,11 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 .nav-brand-small {
-    font-size:32px;
+    font-size:31px;
 }
 @media screen and (max-width: 991px) {
     .nav-brand-small {
-        font-size: 25px;
+        font-size: 24px;
     }
 }
 header {
@@ -1173,9 +1173,17 @@ section h3.section-subheading-project {
     padding-bottom:75px;
 }
 .containter-top-header {
-    max-width: 75%;
+    max-width: 90%;
 }
 .btn-landing {
+    color:white; 
+    background-color:#fed136;
+    font-size:16px;
+    border:0px;
+    text-transform: uppercase;
+    font-weight: 700; 
+    padding:8px 10px; 
+    border-radius:3px;
     margin-top:28px;
     -webkit-box-shadow: 5px 5px 15px rgba(0,0,0,0.4);
     -moz-box-shadow: 5px 5px 15px rgba(0,0,0,0.4);
@@ -1198,7 +1206,26 @@ section h3.section-subheading-project {
 }
 .landing-submit {
     margin: 15px 0px;
-    width: 100%;
+    width:100%;
+    color:white; 
+    background-color:#fed136;
+    font-size:16px;
+    border:0px;
+    text-transform: uppercase;
+    font-weight: 700; 
+    padding:6px; 
+    border-radius:3px;
+}
+.plan-submit {
+    width:100%;
+    color:white; 
+    background-color:#fed136;
+    font-size:16px;
+    border:0px;
+    text-transform: uppercase;
+    font-weight: 700; 
+    padding:6px; 
+    border-radius:3px;
 }
 .contact-submit {
     margin: 0px;
