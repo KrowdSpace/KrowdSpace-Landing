@@ -25,7 +25,7 @@
                                                 <p class="sign-in-small"><strong>October 2016</strong></p>
                                                 <p class="sign-in-small"><strong>The Crowdfunding Experiment</strong></p>
                                                 <div class="text-justify">
-                                                    <p>We got our first glimpse into crowdfunding attempting to launch our original product "The Bahari Bag" on Kickstarter. We had the great product, a full functioning website, personal story and a well crafted project page. It became very clear that we were missing one thing. Our community wasnt large enough and it was very difficulty to gain traction. Lala Bahari ultimately failed but a lot was learned.</p>
+                                                    <p>We had our first encounter with crowdfunding while attempting to launch our original product "The Bahari Bag" on Kickstarter. We had the great product, a full functioning website, personal story and a well crafted project page. It became very clear that we were missing one thing. Our community wasnt large enough and it was very difficulty to gain any traction. We searched high and low for a free or affordable website to show off our hard work and build our community but there was none.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -39,7 +39,7 @@
                                                 <p class="sign-in-small"><strong>November 2016</strong></p>
                                                 <p class="sign-in-small"><strong>The Seed is Planted</strong></p>
                                                 <div class="text-justify">
-                                                    <p>As our failed Kickstarter came to an end and we picked up the pieces to analyze and learn from our mistakes a problem was discovered. We had invested a lot of money into companies who promised promotions and news coverage or articles but never delivered. Our hard work and dreams had been taken advantage of by people looking to make a quick profit. The idea of a new and innovative company started to take shape to help others navigate the extreme world of crowdfunding.</p>
+                                                    <p>As we came to terms with the results of our Kickstarter our team decided to analyze and learn from our mistakes. We had invested a lot of money into companies who promised promotions and news coverage or articles but never delivered. Our hard work and dreams had been taken advantage of by people looking to make a quick profit. The idea of a new and innovative company started to take shape to help others navigate the extreme world of crowdfunding.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -53,7 +53,7 @@
                                                 <p class="sign-in-small"><strong>December 2016</strong></p>
                                                 <p class="sign-in-small"><strong>Krowdspace is Born</strong></p>
                                                 <div class="text-justify">
-                                                    <p>Krowdspace begins development to create a unified platform for people who need help launching their own crowdfunding projects. We wanted to offer a service that is appreciated and transparent. As our development continued new features were added regularly. Our social media channels go live and we start building our own community.</p>
+                                                    <p>Krowdspace begins development to create a unified platform for people who need help launching their own crowdfunding projects. We wanted to offer a service that is appreciated and transparent. As our development continued new features were added regularly. Our social media channels go live and we start building our own brand.</p>
                                                 </div>
                                             </div>
                                         </div>
