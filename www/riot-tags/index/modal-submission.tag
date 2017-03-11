@@ -4,6 +4,7 @@
             <div class="modal-content">
                 <div onclick={ close } class="close-modal-full" data-dismiss="modal">
                 </div>
+                <div class="container">
                 <div class="row">
                     <div class="col-sm-6 col-sm-offset-3 shadow user-modal text-justify" style="border: 5px solid #fed136;">
                         <div class="user-title">
@@ -38,6 +39,7 @@
                             </a>
                         </div>
                     </div>
+                </div>
                 </div>
             </div>
         </div>

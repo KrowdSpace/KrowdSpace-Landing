@@ -8,6 +8,7 @@
                         </div>
                     </div>
                 </div>
+                <div class="container">
                 <div class="row">
                     <div class="col-sm-10 col-sm-offset-1 shadow text-left user-modal">
                         <div class="text-left user-title">
@@ -30,6 +31,7 @@
                             </div>
                         </div>
                     </div>
+                </div>
                 </div>
             </div>
         </div>

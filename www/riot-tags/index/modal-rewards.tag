@@ -8,6 +8,7 @@
                         </div>
                     </div>
                 </div>
+                <div class="container">
                 <div class="row">
                     <div class="col-sm-10 col-sm-offset-1 shadow user-modal">
                         <div class="text-left user-title">
@@ -31,6 +32,7 @@
                         <p>Keep it simple and make it creative. People love to see that their pledge is helping your project come to life and personal touches make all the difference. if you have any questions about rewards please <a href= "mailto:Mason@Krowdspace.com">contact us</a>.</p>
                         </div>
                     </div>
+                </div>
                 </div>
             </div>
         </div>
