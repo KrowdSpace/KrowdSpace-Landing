@@ -8,6 +8,7 @@
                         </div>
                     </div>
                 </div>
+                <div class="container">
                 <div class="row">
                     <div class="col-sm-10 col-sm-offset-1">
                         <div class="col-md-5 col-sm-7 shadow user-modal">
@@ -78,6 +79,7 @@
                         </div>
                     </div>
                 </div>
+                </div>
             </div>
         </div>
     </div>
@@ -94,7 +96,7 @@
           };
           $.ajax({
              contentType:"application/json",
-             url: 'http://api.krowdspace.com/register/email_list',
+             url: 'https://api.krowdspace.com/register/email_list',
              type: 'POST',
              data: JSON.stringify(formArr),
              success: function(data) {

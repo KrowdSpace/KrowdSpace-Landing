@@ -97,7 +97,7 @@
         };
         $.ajax({
            contentType:"application/json",
-           url: 'http://api.krowdspace.com/contact_us',
+           url: 'https://api.krowdspace.com/contact_us',
            type: 'POST',
            data: JSON.stringify(formArr),
            success: function(data) {

@@ -66,7 +66,7 @@
         };
         $.ajax({
            contentType:"application/json",
-           url: 'http://api.krowdspace.com/register/email_list',
+           url: 'https://api.krowdspace.com/register/email_list',
            type: 'POST',
            data: JSON.stringify(formArr),
            success: function(data) {
