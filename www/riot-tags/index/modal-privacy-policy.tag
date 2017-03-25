@@ -1,13 +1,14 @@
 <modal-privacy-policy>
     <div class="krowdspace-modal modal fade" id="modal-privacy-policy" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
-            <div class="modal-content alternate-background">
+            <div class="modal-content">
                 <div class="close-modal" data-dismiss="modal">
                     <div class="lr">
                         <div class="rl">
                         </div>
                     </div>
                 </div>
+                <div class="container">
                 <div class="row">
                     <div class="col-sm-10 col-sm-offset-1 shadow text-left user-modal">
                         <div class="text-left user-title">
@@ -73,6 +74,7 @@
                             Snohomish, WA 98291-1225
                         </p>
                     </div>
+                </div>
                 </div>
             </div>
         </div>

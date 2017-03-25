@@ -1,13 +1,14 @@
 <modal-live>
     <div class="krowdspace-modal modal fade" id="modal-live" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
-            <div class="modal-content alternate-background">
+            <div class="modal-content">
                 <div class="close-modal" data-dismiss="modal">
                     <div class="lr">
                         <div class="rl">
                         </div>
                     </div>
                 </div>
+                <div class="container">
                 <div class="row">
                     <div class="col-sm-4 col-sm-offset-4 shadow user-modal">
                         <div class="text-center user-title">
@@ -57,6 +58,7 @@
                         </form>
                     </div>
                 </div>
+                </div>
             </div>
         </div>
     </div>
@@ -80,7 +82,7 @@
         };
         $.ajax({
            contentType:"application/json",
-           url: 'http://api.krowdspace.com/register/email_list',
+           url: 'https://api.krowdspace.com/register/email_list',
            type: 'POST',
            data: JSON.stringify(formArr),
            success: function(data) {

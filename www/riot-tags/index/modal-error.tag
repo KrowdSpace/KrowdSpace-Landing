@@ -1,21 +1,22 @@
 <modal-error>
     <div class="krowdspace-modal modal fade" id="modal-error" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
-            <div class="modal-content alternate-background">
+            <div class="modal-content">
                 <div class="close-modal" data-dismiss="modal">
                     <div class="lr">
                         <div class="rl">
                         </div>
                     </div>
                 </div>
+                <div class="container">
                 <div class="row">
                     <div class="col-md-offset-4 col-md-4 col-sm-offset-3 col-sm-6 shadow user-modal">
                         <div class="text-center user-title">
                             <p class="sign-in">Still in the Works</p>
                         </div>
                         <div class="text-justify">
-                            <p>Thank you for coming to our website and wanting to view/submit a project or make a purchase. We are currently in the process of getting our BETA version up and running and if you send us your contact information we will notify you when we are completely live.</p>
-                            <p>We are currently in search of projects to test and if you do have a live project please register with Krowdspace and we will contact you. You could be featured on our homepage with a link back to your project! Who doesn't like free publicity! Thank you for your patience and understanding.</p>
+                            <p>Thank you for your interest in Krowdspace. We are currently in the process of getting our BETA version up and running. Please send us your contact information and we will notify you when we are live.</p>
+                            <p>We are currently in search of projects to test our platform. If you have a project on Kickstarter or Indiegogo that you’d like to register, please fill out the form below and we will contact you. You could be featured on our homepage with a link back to your project! Who doesn't like free publicity? Thank you for your patience and understanding.</p>
                         </div>
                         <div class="text-center user-md-title">
                             <p class="sign-in">Register with Krowdspace</p>
@@ -57,6 +58,7 @@
                         </form>
                     </div>
                 </div>
+                </div>
             </div>
         </div>
     </div>
@@ -80,7 +82,7 @@
         };
         $.ajax({
            contentType:"application/json",
-           url: 'http://api.krowdspace.com/register/email_list',
+           url: 'https://api.krowdspace.com/register/email_list',
            type: 'POST',
            data: JSON.stringify(formArr),
            success: function(data) {

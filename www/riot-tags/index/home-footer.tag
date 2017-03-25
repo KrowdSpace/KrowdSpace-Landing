@@ -2,7 +2,7 @@
     <footer class="alternate-background custom-footer">
         <div class="container">
             <div class="row">
-                <div class="col-md-3 col-sm-6 hidden-xs">
+                <div class="col-md-3 hidden-sm hidden-xs">
                     <p class="footer-text">
                         <strong>Quick Links</strong>
                     </p>
@@ -17,11 +17,11 @@
                         <li><a href="#modal-press-kit" data-toggle="modal" class="modal-link neutral-link">Press Kit</a></li>
                     </ul>
                 </div>
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-offset-0 col-sm-6 col-xs-offset-1 col-xs-10">
                     <p class="footer-text">
                         <strong>Follow Us On Social Media</strong>
                     </p>
-                    <p class="text-left">We are constantly building our social media community. Connect with us for updates on the latest news, promotion and exclusive giveaways.
+                    <p class="text-justify">We are constantly building our social media community. Connect with us for updates on the latest news, promotion and exclusive giveaways.
                     </p>
                     <div class="text-left boost-warning">
                         <a href="https://www.facebook.com/Krowdspaced" target="_blank">
@@ -50,8 +50,8 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-md-1 hidden-sm hidden-xs"></div>
-                <div id="contact" class="col-md-4 shadow contact-area hidden-sm hidden-xs">
+                <div class="col-sm-1 hidden-xs"></div>
+                <div id="contact" class="col-md-4 col-sm-offset-0 col-sm-5 col-xs-offset-1 col-xs-10 shadow contact-area">
                     <form class="form-vertical no-gutter form-style" id="messageForm" onsubmit={ submit }>
                         <div class="form-group">
                             <input type="text" name="FNAME1" id="FNAME1" class="form-control" placeholder="First Name*" required="" aria-required="true" aria-invalid="true">
@@ -97,7 +97,7 @@
         };
         $.ajax({
            contentType:"application/json",
-           url: 'http://api.krowdspace.com/contact_us',
+           url: 'https://api.krowdspace.com/contact_us',
            type: 'POST',
            data: JSON.stringify(formArr),
            success: function(data) {

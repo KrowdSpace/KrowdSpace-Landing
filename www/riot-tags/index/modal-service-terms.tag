@@ -1,13 +1,14 @@
 <modal-service-terms>
     <div class="krowdspace-modal modal fade" id="modal-service-terms" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
-            <div class="modal-content alternate-background">
+            <div class="modal-content">
                 <div class="close-modal" data-dismiss="modal">
                     <div class="lr">
                         <div class="rl">
                         </div>
                     </div>
                 </div>
+                <div class="container">
                 <div class="row">
                     <div class="col-sm-10 col-sm-offset-1 shadow text-left user-modal">
                         <div class="text-left user-title">
@@ -103,6 +104,7 @@
                         <p class="sign-in privacy-title">SECTION 20 - CONTACT INFORMATION</p>
                         <p>Questions about the Terms of Service should be sent to us at mason@krowdspace.com.</p>
                     </div>
+                </div>
                 </div>
             </div>
         </div>

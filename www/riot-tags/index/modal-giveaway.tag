@@ -1,23 +1,24 @@
 <modal-giveaway>
     <div class="krowdspace-modal modal fade" id="modal-giveaway" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
-            <div class="modal-content alternate-background">
+            <div class="modal-content">
                 <div class="close-modal" data-dismiss="modal">
                     <div class="lr">
                         <div class="rl">
                         </div>
                     </div>
                 </div>
+                <div class="container">
                 <div class="row">
                     <div class="col-sm-10 col-sm-offset-1 shadow text-left user-modal no-gutters" style="margin-bottom:50px;">
-                    <div class="col-sm-8">
+                    <div class="col-lg-7 col-md-12">
                         <iframe style="margin:0;padding:0;border:none; width:100%; height:1100px;" src="https://gleam.io/ZRCtj/krowdspace-landing-page-launch-giveaway" frameBorder="0"></iframe>
                         </div>
-                     <div class="col-sm-4">
+                     <div class="col-lg-5 hidden-md hidden-sm hidden-xs">
                      <div class="text-center user-title">
                             <p class="sign-in">Previous Winners</p>
                         </div>
-                    <p><span class="sign-in-small"><strong>$50 Amazon Card - 03/23/17</strong></span></p>
+                    <p><span class="sign-in-small"><strong>$50 Amazon Card - 04/01/17</strong></span></p>
                      </div>
                      </div>
                     <div class="col-sm-10 col-sm-offset-1 shadow text-left user-modal">
@@ -57,6 +58,7 @@
                         <br>
                         <p><span class="sign-in-small"><strong>Facebook:</strong></span> The Campaign hosted by Krowdspace is in no way sponsored, endorsed, administered by, or associated with Facebook.</p>
                     </div>
+                </div>
                 </div>
             </div>
         </div>
