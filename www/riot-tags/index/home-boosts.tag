@@ -5,7 +5,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-offset-2 col-lg-8 col-md-12">
-					<h1 class="landing-header text-center">Project Boosts</h1>
+					<h2 class="landing-header text-center">Project Boosts</h2>
 					<p class="text-left landing-description text-justify">Our boost plans offer some much-needed exposure to really get your project going. Don’t want to purchase a full plan? We also offer individual a la carte boosts. To find out more about individual boosts or obtain free boosts <a href="#modal-boost" data-toggle="modal" class="modal-link">click here</a>. Each plan will last for 30 days or the duration of your project, whichever is less.    
 					</p>
 				</div>
@@ -57,7 +57,7 @@
 							</table>
 						</div>
 						<div class="boost-button boost-left-btn">
-							<a href="#modal-error" data-toggle="modal" class="page-scroll btn btn-xl modal-link plan-submit">Purchase Classic</a>
+							<a href="#modal-error" data-toggle="modal" class="btn btn-xl modal-link plan-submit">Purchase Classic</a>
 						</div>
 					</div>
 				</div>
@@ -106,7 +106,7 @@
 							</table>
 						</div>
 						<div class="boost-button boost-middle-btn">
-							<a href="#modal-error" data-toggle="modal" class="page-scroll btn btn-xl modal-link plan-submit">Purchase Premium</a>
+							<a href="#modal-error" data-toggle="modal" class="btn btn-xl modal-link plan-submit">Purchase Premium</a>
 						</div>
 					</div>
 				</div>
@@ -165,13 +165,13 @@
 							</table>
 						</div>
 						<div class="boost-button">
-							<a href="#modal-error" data-toggle="modal" class="page-scroll btn btn-xl modal-link plan-submit">Purchase Elite</a>
+							<a href="#modal-error" data-toggle="modal" class="btn btn-xl modal-link plan-submit">Purchase Elite</a>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="row">
-				<h1 class="landing-header text-center" style="margin-top:50px;">Social Media Marketing</h1>
+				<h2 class="landing-header text-center" style="margin-top:50px;">Social Media Marketing</h2>
 				<div class="col-lg-offset-2 col-lg-8 col-md-12 text-justify">
 					<p class="landing-description">Figuring out how to advertise through social media can be a full-time job. We want to simplify the process and do the work for you. To help you gain exposure for your project we will run your social media advertisement campaign based on a quick survey from you for FREE. We will not take a cut and 100% of your money will go back to your project. We will provide you with detailed metrics on every social media post. Please <a class="page-scroll" href="#contact">contact us</a> with any concerns or questions. We know your money was earned through hard work and we want to make every dollar count. Start with a small amount and let us prove it’s worth. Our minimum Social Media Marketing purchase is $25.</p>
 				</div>

@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 text-center">
-                    <h1 class="landing-header">How it works</h1>
+                    <h2 class="landing-header">How it works</h2>
                 </div>
                 <div class="col-lg-offset-2 col-lg-8 col-md-12 landing-description text-justify">
                     <p>At Krowdspace, we feature projects gathered from the top crowdfunding sites and bring them together into one unified platform. Why is this beneficial? Projects are detached from their original platform branding, which removes backer bias and exposes them to a broader audience. As a project’s audience grows, the probability of reaching funding goals is increased. Pair that with Krowdspace’s effective and measurable <a href="#modal-boost" data-toggle="modal" class="modal-link">project boosts</a> and campaigns gain momentum faster. Join the Krowdspace community today by discovering <a href="#modal-error" data-toggle="modal" class="modal-link">new projects</a> or <a href="#modal-error" data-toggle="modal" class="modal-link">submit your own project</a>.</p>

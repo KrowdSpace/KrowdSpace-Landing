@@ -1,7 +1,7 @@
 <modal-rewards>
     <div class="krowdspace-modal modal fade" id="modal-rewards" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
-            <div class="modal-content alternate-background">
+            <div class="modal-content">
                 <div class="close-modal" data-dismiss="modal">
                     <div class="lr">
                         <div class="rl">

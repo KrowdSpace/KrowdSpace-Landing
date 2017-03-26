@@ -1,17 +1,7 @@
-/*!
- * Start Bootstrap - Agency v3.3.7+1 (http://startbootstrap.com/template-overviews/agency)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
 body {
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   font-family:  "Montserrat", "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-@font-face {
-  font-family: 'Brown';
-  src:  url('../fonts/brown_bold-webfont.woff2') format('woff2'),
-        url('../fonts/brown_bold-webfont.woff') format('woff');
 }
 .text-primary {
   color: #fed136;
@@ -31,7 +21,7 @@ a.active {
   outline: none;
 }
 a {
-  color: #FFC600;
+  color: #fed136;
 }
 a:hover,
 a:focus,
@@ -49,6 +39,9 @@ h6 {
   text-transform: uppercase;
   font-weight: 600;
   line-height: 1.2;
+}
+h1 {
+    font-size: 30px;
 }
 .img-centered {
   margin: 0 auto;
@@ -744,21 +737,21 @@ ul.social-buttons li a:active {
 }
 .krowdspace-modal .close-modal {
   position: absolute;
-  width: 75px;
-  height: 75px;
+  width: 100%;
+  height: 100%;
   background-color: transparent;
   top: 25px;
   right: 25px;
   cursor: pointer;
 }
 .krowdspace-modal .close-modal:hover {
-  opacity: 0.3;
+  opacity: 0.7;
 }
 .krowdspace-modal .close-modal .lr {
   height: 75px;
-  width: 1px;
-  margin-left: 35px;
-  background-color: #222222;
+  width: 3px;
+  margin-left: 97%;
+  background-color: #fed136;
   transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   /* IE 9 */
@@ -768,8 +761,8 @@ ul.social-buttons li a:active {
 }
 .krowdspace-modal .close-modal .lr .rl {
   height: 75px;
-  width: 1px;
-  background-color: #222222;
+  width: 3px;
+  background-color: #fed136;
   transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   /* IE 9 */
@@ -1073,7 +1066,8 @@ section h3.section-subheading-project {
 }
 .boost-tier-box {
     background-color:white; 
-    height:100%;   
+    height:100%;  
+    border: 1px solid #dcdedd;
 }
 .price-box {
     padding-top:40px; 
@@ -1109,7 +1103,7 @@ section h3.section-subheading-project {
     margin-bottom: 0px;
 }
 .table-bottom{
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #dcdedd;
 }
 .boost-button {
     padding:30px 15px 15px 15px; 
@@ -1269,6 +1263,7 @@ section h3.section-subheading-project {
 .user-modal {
     background-color:white; 
     padding:10px 25px 25px 25px;
+    border: 5px solid #fed136;
 }
 @media screen and (max-width: 767px) {
     .user-modal {
@@ -1326,7 +1321,7 @@ section h3.section-subheading-project {
     width:132px;
 }
 .custom-footer {
-    border-top: 2px solid #e6e6e6;
+    border-top: 2px solid #dcdedd;
 }
 .contact-btn {
     color:white; 

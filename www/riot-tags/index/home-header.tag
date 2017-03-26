@@ -3,7 +3,7 @@
         <div class="container-header">
             <div class="row flex header-flow">
                 <div class="col-lg-8 col-md-12 header-left text-left">
-                        <h2 class="header-title hidden-xs">Back the Project, not the Platform</h2>
+                        <h1 class="header-title hidden-xs">Back the Project, not the Platform</h1>
                         <div class="containter-top-header">
                             <p>At Krowdspace, our goal is to unify the crowdfunding community. Whether you’re a project owner building momentum for your campaign, or a backer looking to support the next big idea, Krowdspace offers a platform to discover the latest projects from top crowdfunding sites all in one place.</p>
                             <p>Krowdspace members will receive exclusive rewards for backing projects and project owners gain access to our easy to use promotional tools to take their campaigns to the next level.</p>
