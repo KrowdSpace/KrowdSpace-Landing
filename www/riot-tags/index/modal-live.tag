@@ -10,16 +10,16 @@
                 </div>
                 <div class="container">
                 <div class="row">
-                    <div class="col-sm-4 col-sm-offset-4 shadow user-modal">
-                        <div class="text-center user-title">
-                            <p class="sign-in">Placeholder Projects</p>
+                    <div class="col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8 shadow user-modal">
+                        <div class="text-center modal-container">
+                            <p class="modal-heading">Placeholder Projects</p>
                         </div>
                         <div class="text-justify">
                             <p>Thank you for coming to our website and wanting to view a project. The current projects we are featuring on our home page are either expired or just placeholders. We are currently in the process of rotating them to live projects.</p>
                             <p>If you currently have a live project on Indiegogo or Kickstarter we want to hear from you. You could be featured on our homepage with a link back to your project! Who doesn't like free publicity! Thank you for your patience and understanding.</p>
                         </div>
                         <div class="text-center user-md-title">
-                            <p class="sign-in">Register with Krowdspace</p>
+                            <p class="modal-heading">Register with Krowdspace</p>
                         </div>
                         <form class="form-vertical" id="commentForm" onsubmit={ submit3 }>
                             <div class="form-group">

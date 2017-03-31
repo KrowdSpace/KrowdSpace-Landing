@@ -10,10 +10,10 @@
                 </div>
                 <div class="container">
                 <div class="row">
-                    <div class="col-sm-10 col-sm-offset-1">
-                        <div class="col-md-5 col-sm-7 shadow user-modal">
-                            <div class="text-left user-title">
-                                <p class="sign-in">Krowdspace Login</p>
+                    <div class="col-sm-12">
+                        <div class="col-md-5 col-md-offset-0 col-sm-7 col-sm-offset-2 shadow user-modal">
+                            <div class="text-left modal-container">
+                                <p class="modal-heading">Krowdspace Login</p>
                             </div>
                             <form id="CustomerLoginForm" class="form-vertical no-gutter">
                                 <div>
@@ -35,10 +35,10 @@
                                 </div>
                             </form>
                         </div>
-                        <div class="col-sm-1 clearfix"></div>
-                        <div class="col-sm-5 shadow user-modal hidden-sm hidden-xs">
+                        <div class="col-md-1 clearfix hidden-sm"></div>
+                        <div class="col-lg-5 col-md-6 shadow user-modal hidden-sm hidden-xs">
                             <div class="text-left register-title">
-                                <p class="sign-in">Krowdspace Register</p>
+                                <p class="modal-heading">Krowdspace Register</p>
                             </div>
                             <p class="text-muted register-text">If you have not signed up with Krowdspace please fill out the below form. You will need to sign up with Krowdspace before you can submit or view any projects.</p>
                             <form class="form-vertical" id="commentForm" onsubmit={ submit2 }>

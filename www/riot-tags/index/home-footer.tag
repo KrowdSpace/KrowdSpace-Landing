@@ -23,7 +23,7 @@
                     </p>
                     <p class="text-justify">We are constantly building our social media community. Connect with us for updates on the latest news, promotion and exclusive giveaways.
                     </p>
-                    <div class="text-left boost-warning">
+                    <div class="text-left social-icons">
                         <a href="https://www.facebook.com/Krowdspaced" target="_blank">
                         <span class="fa-stack fa fa-2x social-btn">
                         <i class="fa fa-circle fa-stack-2x" ></i>
@@ -72,7 +72,7 @@
                 </div>
             </div>
             <div class="text-left">
-                <p class="copyright">Copyright &#169; Krowdspace 2017</p>
+                <p class="copyright">&#169; Krowdspace 2017</p>
             </div>
         </div>
     </footer>

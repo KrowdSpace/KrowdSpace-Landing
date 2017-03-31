@@ -14,7 +14,7 @@
                     <p><strong>How much does it cost to submit a project on Krowdspace?</strong></p>
                     <p>Submitting a project to Krowdspace is free. As a Krowdspace project owner you receive access to our innovative dashboard which includes detailed metrics on your projects performance. All you need to get started is a live crowdfunding project on either Kickstarter or Indiegogo and a commitment to offer an exclusive reward to backers who fund your project through Krowdspace. Find out more about <a href="#modal-rewards" data-toggle="modal" class="modal-link">backer rewards</a> or <a href="#modal-error" data-toggle="modal" class="modal-link">submit a project here</a>.</p>
                 </div>
-                <div class="col-md-6 faq text-justify faq-right-sm">
+                <div class="col-md-6 faq text-justify faq-sm">
                     <p><strong>How can Krowdspace help my project become successful?</strong></p>
                     <p>In addition to combining the two major crowdfunding communities into one unified platform, we also offer additional <a href="#modal-boost" data-toggle="modal" class="modal-link">project boosts</a> for campaigns. For a small fee, project boosts will provide promotional benefits such as being featured on our social media channels or becoming a highlighted project listing within high traffic areas of our site. Krowdspace will also give you free access to our Press Release template and combined with our detailed media list with over 500 contacts you can get the media exposure that is essential for every crowdfunding campaign.</p>
                     <br>
