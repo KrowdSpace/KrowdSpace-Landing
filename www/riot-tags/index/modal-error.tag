@@ -10,16 +10,16 @@
                 </div>
                 <div class="container">
                 <div class="row">
-                    <div class="col-md-offset-4 col-md-4 col-sm-offset-3 col-sm-6 shadow user-modal">
-                        <div class="text-center user-title">
-                            <p class="sign-in">Still in the Works</p>
+                    <div class="col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8 shadow user-modal">
+                        <div class="text-center modal-container">
+                            <p class="modal-heading">Still in the Works</p>
                         </div>
                         <div class="text-justify">
                             <p>Thank you for your interest in Krowdspace. We are currently in the process of getting our BETA version up and running. Please send us your contact information and we will notify you when we are live.</p>
                             <p>We are currently in search of projects to test our platform. If you have a project on Kickstarter or Indiegogo that you’d like to register, please fill out the form below and we will contact you. You could be featured on our homepage with a link back to your project! Who doesn't like free publicity? Thank you for your patience and understanding.</p>
                         </div>
                         <div class="text-center user-md-title">
-                            <p class="sign-in">Register with Krowdspace</p>
+                            <p class="modal-heading">Register with Krowdspace</p>
                         </div>
                         <form class="form-vertical" id="commentForm" onsubmit={ submit4 }>
                             <div class="form-group">

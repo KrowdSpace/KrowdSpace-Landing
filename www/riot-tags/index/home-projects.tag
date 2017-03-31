@@ -6,49 +6,49 @@
 					<div class="col-sm-7">
 						<a href="{ imageURL }"><img src="{ image }" alt="{ imageAlt }"></a>
 				    </div>
-				    <div class="col-sm-5 project-container">
-				        <p class="card-project-text" style="font-size:16px;"><strong>{ projectTitle}</strong></p>
-				        <p class="card-project-text">{ projectDescription }</p>
+				    <div class="col-sm-5">
+				        <p><strong>{ projectTitle}</strong></p>
+				        <p>{ projectDescription }</p>
                         <br>
-				        <p class="card-project-text"><strong>Backer Reward:</strong> { reward }</p>
+				        <p><strong>Reward:</strong> { reward }</p>
 				        <div class="no-gutter funding-box">
 				            <div class="col-sm-6">
-								<p class="card-project-text">Goal: ${ goal }</p>
+								<p class="card-text">${ goal }</p>
 				            </div>
 				            <div class="col-sm-6 text-right">
-								<p class="card-project-text">{ category }</p>
+								<p class="card-text">{ category }</p>
 				            </div>
 				            <div class="col-sm-12">
-								<div class="progress">
+								<div class="progress-index">
 								    <div class="progress-bar" role="progressbar" style="width: { progressBar }%" aria-valuenow="{ progressBar }" aria-valuemin="0" aria-valuemax="100">
                                     </div>
 								</div>
 				            </div>
 				            <div class="col-sm-2">
-								<p class="card-project-text margin-text">{ progressBar }%</p>
-								<p class="card-project-text">Funded</p>
+								<p class="card-text">{ progressBar }%</p>
+								<p class="card-text">Funded</p>
 				            </div>
 				            <div class="col-sm-3 text-center">
-								<p class="card-project-text margin-text">${ pledged }</p>
-								<p class="card-project-text">Pledged</p>
+								<p class="card-text">${ pledged }</p>
+								<p class="card-text">Pledged</p>
 				            </div>
 				            <div class="col-sm-3 text-center">
-								<p class="card-project-text margin-text">{ backers }</p>
-								<p class="card-project-text">Backers</p>
+								<p class="card-text">{ backers }</p>
+								<p class="card-text">Backers</p>
 				            </div>
 				            <div class="col-sm-4 text-right">
-								<p class="card-project-text margin-text">{ days }</p>
-								<p class="card-project-text">Days Left</p>
+								<p class="card-text">{ days }</p>
+								<p class="card-text">Days Left</p>
 				            </div>
 				        </div>
 				    </div>
-                <div>
+                </div>
             </section>
         </div>
     </section>
     <script type="text/javascript">
         this.indexProject = [
-        { image:"/img//projects/bahari-bag.jpg",
+        { image:"/img/projects/bahari-bag.jpg",
         imageURL:"/?live=1",
         imageAlt:"Bahari Beach bag on the beach",
         projectTitle:"Lala Bahari: The First Convertible Tote Bag of its Kind",
@@ -94,8 +94,8 @@
             dots: false,
             arrows:false,
             infinite: true,
-        autoplay: true,
-        autoplaySpeed: 8000,
+            autoplay: true,
+            autoplaySpeed: 8000,
           });
         });
     </script>

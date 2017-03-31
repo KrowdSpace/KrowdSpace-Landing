@@ -1,6 +1,6 @@
 <home-boosts>
 
-<img src="img/content/page-break.jpg" class="img-responsive calculator hidden-sm hidden-xs">
+<img src="img/content/page-break.jpg" class="img-responsive auto-width hidden-sm hidden-xs">
 	<section id="boost">
 		<div class="container">
 			<div class="row">
@@ -11,8 +11,7 @@
 				</div>
 			</div>
 			<div class="row hidden-sm hidden-xs">
-				<div class="col-sm-8"></div>
-				<div class="col-sm-4 text-center">
+				<div class="col-sm-offset-8 col-sm-4 text-center">
 					<p class="popular-boost">Most Popular</p>
 				</div>
 			</div>

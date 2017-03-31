@@ -1,13 +1,13 @@
 <home-nav>
-<nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top" >
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top" >
         <div class="container">
             <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-collapse">
                     <span class="sr-only">Toggle navigation</span><i class="fa fa-bars hamburger"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top"><strong>KROWDSPAC<span class="nav-brand-small">e</span></strong></a>
+                <a class="navbar-logo page-scroll" href="#page-top"><img src="img/krowdspace-explore.png" style="width:60px;"></a>
             </div>
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="collapse navbar-collapse" id="navigation-collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
                         <a href="#page-top"></a>

@@ -12,7 +12,7 @@
                     <img src="/img/content/submit-icon.png" class="img-responsive img-icon" alt="Submit a Project Icon">
                     <p><strong>Submit a Project</strong></p>
                     <br>
-                    <p class="text-left text-justify">Krowdspace is currently accepting live crowdfunding projects from Kickstarter and Indiegogo. The process to submit a project is simple: once your project is live on either platform, submit your project for approval to Krowdspace by filling out our easy to use <a href="#modal-error" data-toggle="modal" class="modal-link">submission form</a>. All projects are reviewed by our staff and can take up to 24 hours to post. It’s that easy…and free!</p>
+                    <p class="text-left text-justify">Krowdspace is currently accepting live crowdfunding projects from Kickstarter and Indiegogo. The process to submit a project is simple: once your project is live on either platform, submit your project for approval to Krowdspace by filling out our easy to use <a href="#modal-error" data-toggle="modal" class="modal-link">submission form</a>. All projects are reviewed by our staff and can take up to 24 hours to post. It’s that easy… and free!</p>
                 </div>
                 <div class="col-md-4 text-center">
                     <img src="/img/content/reward-icon.png" class="img-responsive img-icon" alt="Rewards Icon">

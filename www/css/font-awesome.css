@@ -162,7 +162,8 @@
   vertical-align: middle;
 }
 .fa-stack-1x,
-.fa-stack-2x {
+.fa-stack-2x,
+.fa-stack-xx{
   position: absolute;
   left: 0;
   width: 100%;
@@ -170,6 +171,9 @@
 }
 .fa-stack-1x {
   line-height: inherit;
+}
+.fa-stack-xx {
+  font-size: 1.8em;
 }
 .fa-stack-2x {
   font-size: 2em;

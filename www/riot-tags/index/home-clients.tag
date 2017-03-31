@@ -1,5 +1,5 @@
 <home-clients>
-<img src="img/content/page-break.jpg" class="hidden-sm hidden-xs calculator">
+<img src="img/content/page-break.jpg" class="hidden-sm hidden-xs auto-width">
 	<aside class="clients hidden-sm hidden-xs">
 		<div class="container text-center">
 			<section class="client center slider">
